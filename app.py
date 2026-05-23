@@ -12,3 +12,11 @@ st.header("Laporan Bulanan")
 st.subheader("📈 Monthly Expenses")
 st.caption("Made with ❤️ using Streamlit")
 st.write("Hello, *World!* ")
+
+title=st.text_input("Movie title", "Life of Brain")
+st.write("The current movie title is", title)
+
+if st.button("Say Hello"):
+  st.write("Why hello there")
+else:
+  st.write("Goodbye")
